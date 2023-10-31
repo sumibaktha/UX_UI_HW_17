@@ -1,33 +1,40 @@
 nav {
   height: 50px;
   background-color: lightgrey;
-  align-items: right;
+}
+.logo {
+  float: left;
+  padding: 15px;
 }
 .inline-block {
   padding: 15px;
-  display: inline-block;
+  float: inline-end;
+}
+img{
+  border-radius: 150px 150px 0 0;
 }
 .left {
-  float: left;
+  float: top;
+  padding-top: 5%;
   height: 500px;
-  background-color: lightblue;
-  width: 30%;
+  background-color: #F5F4EB;
+  width: 100%;
   text-align: center;
 }
 .right {
-  float: left;
-  background-color: lightgreen;
+  float: bottom;
+  background-color: #F5F4EB;
   height: 500px;
-  width: 70%;
+  width: 100%;
   text-align: center;
 }
 
 .card {
   display: inline-block;
   background-color: #C6C6C6;
-  border-radius: 5px;
-  height: 200px;
-  width: 150px;
+  border-radius: 5%;
+  height: 400px;
+  width: 350px;
   margin: 35px;
   margin-top: 50px;
 }
